@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(./images/bg-pattern-top.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	gap: 20px;
+}
+
+.card {
+	margin-top: 30px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+
+.card-info {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-info h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: hsl(229, 23%, 23%);
+}
+
+.card-info span {
+	color: hsl(227, 10%, 46%);
+}
+
+.card-info img {
+	position: static;
+	margin-top: -35%;
+	margin-bottom: 20px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 6px solid white;
+}
+
+.subscriber {
+	padding: 20px;
+	margin: 20px;
+	width: 100%;
+	border-top: 1px solid hsl(0, 0%, 59%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.followers,
+.likes,
+.photos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.followers h1,
+.likes h1,
+.photos h1 {
+	font-size: 24px;
+	color: hsl(229, 23%, 23%);
+}
+.followers p,
+.likes p,
+.photos p {
+	color: hsl(227, 10%, 46%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
